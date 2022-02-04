@@ -1,0 +1,60 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1431794062232-2a99a5431c6c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+input {
+  margin: 10px 0px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+label {
+  color: gray;
+  font-size: 12px;
+}
+
+form {
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  color: purple;
+}
+
+button {
+  height: 50px;
+  width: 100%;
+  border: none;
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.formInput {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+span {
+  color: red;
+  padding: 3px;
+  font-size: 12px;
+  display: none;
+}
+
+input:invalid ~ span {
+  display: block;
+}
